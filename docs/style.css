@@ -42,13 +42,15 @@ ul.link {
 .hero{
     height: 300px;
     background-image: url(marvin-meyer-SYTO3xs06fU-unsplash.png);
-    background-size: 100%;
+    background-size: cover;
     background-position: 0 -20px;
     background-repeat: no-repeat;
 }
 
-.konten{
-    padding: 15px;
+.main{
+    padding-top: 15px;
+    float: left;
+    width: 65%;
 }
 
 .artikel{
@@ -64,4 +66,34 @@ ul.link {
 .footer p{
     text-align: center;
     font-size: 15px;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+/* -------------- */
+
+.tentang{
+    float: right;
+    width: 30%;
+    padding-top: 15px;
+}
+
+.tentang img {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+
+.tentang p{
+    font-size: small;
+    text-align: justify;
+    text-indent: 10px;
 }
