@@ -7,37 +7,39 @@ body {
     margin: 0px 8px;
 }
 
+.topbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 30px;
+    height: 70px;
+    background-color: beige;
+}
+
+.topbar h2{
+    width: 200px;
+    margin-right: 100px;
+    float: left;
+}
+
+.link{
+    position: absolute;
+    top: 45%;
+    right: 3%;
+}
+
+.link a{
+    margin-right: 10px;
+}
 
 .container{
     width: 80%;
-    margin: auto;
+    margin: 70px auto 0px;
     background-color: white;
     padding: 15px;
 }
 
-ul.link {
-    padding: 0%;
-    text-align: end;
-}
-
-.header ul li{
-    display: inline-block;
-    margin-top: 10px;
-    margin-right: 5px;
-
-}
-
-.header a{
-    text-decoration: none;
-    padding: 3px;
-    font-size: 16px;
-}
-
-.header a:hover{
-    background-color: rgb(0, 157, 255);
-    color: white;
-
-}
 
 .hero{
     height: 300px;
